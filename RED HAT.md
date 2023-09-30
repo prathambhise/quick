@@ -1,6 +1,6 @@
 RED HAT
 
-###Basic commands
+### Basic commands
 
 `pwd` print working directory
 `ls -R` recurssive
@@ -9,7 +9,7 @@ RED HAT
 `rmdir`
 `rm -fR`
 
-###Matching expressions
+### Matching expressions
 `ls a*`
 `ls *a`
 `ls [ac]*`
@@ -22,16 +22,16 @@ file_a1.txt file_a2.txt file_a3.txt file_b1.txt file_b2.txt file_b3.txt
 `echo file{a{1,2}b,c}`
 filea1, filea2, fileb, filec
 
-###directory
+### directory
 `/etc/passwd`
 `/etc/group`
 `/ect/shadow`
 
-###help
+### help
 `man ls`
 `man 3 ls` help in 3rd section
 
-###user, groups
+### user, groups
 
 `uid`
 `gid`
@@ -54,7 +54,7 @@ filea1, filea2, fileb, filec
 `usermod -s /usr/bin/bash ram`
 `usermod -aG wheel ram` add usr to root privilage
 
-###access
+### access
 r w x all
 4 2 1 7
 
@@ -66,7 +66,7 @@ r w x all
 `umask 027` remove 2, 7 permission
 
 
-###process
+### process
 `ps aux`
 `ping 8.8.8.8`
 `jobs`
